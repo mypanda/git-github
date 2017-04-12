@@ -40,6 +40,10 @@ git tag -a v1.18a5cbc2
 	* 解决后`git rebase --continue`提交更改
 9. 删除分支 `git branch -d dev`
 	* 没有合并分支删除报错,`git branch -D dev` 强制删除
+10. 查看分支
+	* git branch -l  :查看本地分支
+	* git branch -r  :查看远程分支
+	* git branch -a :查看全部分支，包括远程的和本地的（ -a 其实就是 all 的意思） 
 
 ### 使用步骤
 
