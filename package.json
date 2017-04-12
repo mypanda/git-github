@@ -1,0 +1,25 @@
+{
+  "name": "git-github",
+  "version": "1.0.0",
+  "description": "git-github study",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mypada/git-github.git"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "tag",
+    "branch"
+  ],
+  "author": "mypanda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mypada/git-github/issues"
+  },
+  "homepage": "https://github.com/mypada/git-github#readme"
+}

@@ -1,0 +1,7 @@
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+body{
+	background-color: rgba(200,200,200,0.5);
+}
