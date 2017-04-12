@@ -40,7 +40,11 @@ git tag -a v1.18a5cbc2
 	* 解决后`git rebase --continue`提交更改
 9. 删除分支 `git branch -d dev`
 	* 没有合并分支删除报错,`git branch -D dev` 强制删除
-
+### git push 
+0. [www.yiibai.com/git/git_push.html](http://www.yiibai.com/git/git_push.html)
+1. git push origin master 推送master分支
+2. git push origin 推送当前分支
+3. git push --all origin 推送所有分支
 ### 使用步骤
 
 * 本地已经有.git没有关联远程
