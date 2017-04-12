@@ -22,7 +22,7 @@ git tag -a v1.18a5cbc2
 
 ### git branch
 
--1. [http://www.cnblogs.com/sk-net/archive/2011/07/11/2103282.html](http://www.cnblogs.com/sk-net/archive/2011/07/11/2103282.html)
+0. [http://www.cnblogs.com/sk-net/archive/2011/07/11/2103282.html](http://www.cnblogs.com/sk-net/archive/2011/07/11/2103282.html)
 0. [http://www.tuicool.com/articles/A3Mn6f](http://www.tuicool.com/articles/A3Mn6f)
 1. 分支作为开发的工作目录
 2. 开发分支合并到master发布
