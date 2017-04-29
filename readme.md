@@ -55,3 +55,11 @@ git tag -a v1.18a5cbc2
 * `git push -u origin master`提交master分支
 * `git puch -u origin`提交所有的分支
 * `git push origin --tags`--tags参数 提交tags
+
+### 冲突怎么解决
+* 远程commit提交了，然后本地也做了修改，冲突
+* `git pull origin master`下载到本地
+*  然后手动修改冲突
+* `git add .`
+* `git commit -m 'repair'`
+* `git push origin master` 提交到远程
