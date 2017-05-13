@@ -45,6 +45,7 @@ git tag -a v1.18a5cbc2
 1. git push origin master 推送master分支
 2. git push origin 推送当前分支
 3. git push --all origin 推送所有分支
+4. git push origin :dev 删除远程的dev分支
 ### 使用步骤
 
 * 本地已经有.git没有关联远程
