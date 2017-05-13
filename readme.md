@@ -64,3 +64,16 @@ git tag -a v1.18a5cbc2
 * `git add .`
 * `git commit -m 'repair'`
 * `git push origin master` 提交到远程
+
+### git merge
+
+* `git merge --no-ff dev` --no-ff参数是在master新建节点，然后把dev合并上来，不带--no-ff是，master的head指针指向dev并非是正常理解的合并过来
+
+### git add和取消add
+
+* `git reset HEAD .` 或者 `git reset HEAD a.txt`取消放置到暂存区的内容， 
+
+### git reset --hard commit->id
+
+* `git reset --hard 1111111` 把Hard指向上一个111111111这个commit
+* `git reset --hard 2222222` 只要窗口不关，找到222222这个id，在执行一次reset --hard + id就可以前进到222222版本
