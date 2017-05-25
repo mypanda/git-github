@@ -14,7 +14,7 @@
 git log --oneline
 #假如有这样一个commit：8a5cbc2 updated readme
 #这样为他添加tag
-git tag -a v1.18a5cbc2
+git tag -a v1.1 8a5cbc2
 ```
 7. `git tag -d v1.0` 删除tag
 8. `git tag -v v1.0` 如果有GPG私钥的话就可以验证tag
