@@ -9,6 +9,7 @@
 6. `git tag -s v1.0 -m 'first version'`
 	* 前提是你有GPG私钥，把上面的a换成s就行了。
 	* 除了可以为当前的进度添加tag，我们还可以为以前的commit添加tag
+7. `git push origin :refs/tags/标签名``git push origin :refs/tags/protobuf-2.5.0rc1` 删除远程标签
 ```
 #首先查看以前的commit
 git log --oneline
