@@ -1,3 +1,7 @@
+### git bash for window
+
+[git bash](https://git-for-windows.github.io/)
+
 ### git tag
 
 0. [http://caibaojian.com/github-create-tag](http://caibaojian.com/github-create-tag.html)
@@ -20,6 +24,33 @@ git tag -a v1.1 8a5cbc2
 7. `git tag -d v1.0` 删除tag
 8. `git tag -v v1.0` 如果有GPG私钥的话就可以验证tag
 9. `git push origin --tags`--tags参数 提交tags到github
+
+### git log
+
+* `git log -- filename （git log filename）`
+* `git log -p filename` 查看一个文件所有的修改
+* `git show commit-id filename` 查看某次提交中的某个文件变化
+* `git show commit-id` 根据commit-id查看某个提交
+
+|选项|说明|
+|:---:|:---:|
+|-p|按补丁格式显示每个更新之间的差异。|
+|--stat|显示每次更新的文件修改统计信息。|
+|--shortstat|只显示 --stat 中最后的行数修改添加移除统计。|
+|--name-only|仅在提交信息后显示已修改的文件清单。|
+|--name-status|显示新增、修改、删除的文件清单。|
+|--abbrev-commit|仅显示 SHA-1 的前几个字符，而非所有的 40 个字符。|
+|--relative-date|使用较短的相对时间显示（比如，“2 weeks ago”）。|
+|--graph|显示 ASCII 图形表示的分支合并历史。|
+|--pretty|使用其他格式显示历史提交信息。可用的选项包括 oneline，short，full，fuller 和 format（后跟指定格式）。|
+|-----|-----|
+|-(n)|仅显示最近的 n 条提交|
+|--since, --after|仅显示指定时间之后的提交。|
+|--until, --before|仅显示指定时间之前的提交。|
+|--author|仅显示指定作者相关的提交。|
+|--committer|仅显示指定提交者相关的提交。|
+|--grep|仅显示含指定关键字的提交|
+|-S|仅显示添加或移除了某个关键字的提交|
 
 ### git branch
 
