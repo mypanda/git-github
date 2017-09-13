@@ -26,11 +26,10 @@ git tag -a v1.1 8a5cbc2
 9. `git push origin --tags`--tags参数 提交tags到github
 
 ### git log
-
-* `git log -- filename （git log filename）`
-* `git log -p filename` 查看一个文件所有的修改
-* `git show commit-id filename` 查看某次提交中的某个文件变化
-* `git show commit-id` 根据commit-id查看某个提交
+* `git log -- filename （git log filename）` 查看该文件每次提交记录
+* `git log -p filename` 查看一个文件所有的修改,查看每次详细修改内容的diff
+* `git log -p -2` 查看最近两次详细修改内容的diff
+* `git log --stat` 查看提交统计信息
 
 |选项|说明|
 |:---:|:---:|
@@ -52,6 +51,16 @@ git tag -a v1.1 8a5cbc2
 |--grep|仅显示含指定关键字的提交|
 |-S|仅显示添加或移除了某个关键字的提交|
 
+### git diff
+* `git diff id id ./src/main.js` 比较commit之间文件的不同
+* `git diff <file>` 比较当前文件和暂存区文件的差异
+### git show
+* `git show commit-id filename` 查看某次提交中的某个文件变化
+* `git show commit-id` 根据commit-id查看某个提交
+### git reset 
+* `git reset --hard` 取消下载，就是恢复到工作区
+* `git reset` 取消git add
+* `git reset --hard commit_id` 取消那次commit
 ### git branch
 
 0. [http://www.cnblogs.com/sk-net/archive/2011/07/11/2103282.html](http://www.cnblogs.com/sk-net/archive/2011/07/11/2103282.html)
