@@ -121,3 +121,7 @@ git tag -a v1.1 8a5cbc2
 
 * `git reset --hard 1111111` 把Hard指向上一个111111111这个commit
 * `git reset --hard 2222222` 只要窗口不关，找到222222这个id，在执行一次reset --hard + id就可以前进到222222版本
+
+### git checkout
+
+* 撤销工作区修改`git checkout .`
